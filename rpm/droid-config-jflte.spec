@@ -5,7 +5,7 @@
 %define vendor samsung
 
 %define vendor_pretty Samsung
-%define device_pretty Galaxy S9
+%define device_pretty Galaxy S4
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -17,6 +17,9 @@
 # pixel_ratio = 4.5/DiagonalDisplaySizeInches * HorizontalDisplayResolution/540
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
+
+# For building 17.1
+%define android_version_major 10
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-jflte.inc
