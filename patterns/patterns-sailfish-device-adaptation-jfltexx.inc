@@ -1,18 +1,18 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-adaptation-jflte
-Summary: Jolla HW Adaptation jflte
-Requires: droid-hal-jflte
-Requires: droid-hal-jflte-img-boot
-Requires: droid-hal-jflte-kernel-modules
-Requires: droid-config-jflte-sailfish
-Requires: droid-config-jflte-pulseaudio-settings
-Requires: droid-config-jflte-policy-settings
-Requires: droid-config-jflte-preinit-plugin
-Requires: droid-config-jflte-flashing
-Requires: droid-config-jflte-bluez5
-Requires: droid-hal-version-jflte
+%package -n patterns-sailfish-device-adaptation-jfltexx
+Summary: Jolla HW Adaptation jfltexx
+Requires: droid-hal-jfltexx
+Requires: droid-hal-jfltexx-img-boot
+Requires: droid-hal-jfltexx-kernel-modules
+Requires: droid-config-jfltexx-sailfish
+Requires: droid-config-jfltexx-pulseaudio-settings
+Requires: droid-config-jfltexx-policy-settings
+Requires: droid-config-jfltexx-preinit-plugin
+Requires: droid-config-jfltexx-flashing
+Requires: droid-config-jfltexx-bluez5
+Requires: droid-hal-version-jfltexx
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -78,7 +78,7 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
-%description -n patterns-sailfish-device-adaptation-jflte
-Pattern with packages for jflte HW Adaptation
+%description -n patterns-sailfish-device-adaptation-jfltexx
+Pattern with packages for jfltexx HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-jflte
+%files -n patterns-sailfish-device-adaptation-jfltexx

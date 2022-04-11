@@ -1,7 +1,7 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device jflte
+%define device jfltexx
 %define vendor samsung
 
 %define vendor_pretty Samsung
@@ -27,8 +27,8 @@
 %define android_version_major 10
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-jflte.inc
-%include patterns/patterns-sailfish-device-configuration-jflte.inc
+%include patterns/patterns-sailfish-device-adaptation-jfltexx.inc
+%include patterns/patterns-sailfish-device-configuration-jfltexx.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

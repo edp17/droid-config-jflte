@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-configuration-jflte
-Summary: Jolla Configuration jflte
-Requires: patterns-sailfish-device-configuration-common-jflte
-Requires: patterns-sailfish-device-adaptation-jflte
+%package -n patterns-sailfish-device-configuration-jfltexx
+Summary: Jolla Configuration jfltexx
+Requires: patterns-sailfish-device-configuration-common-jfltexx
+Requires: patterns-sailfish-device-adaptation-jfltexx
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -37,7 +37,7 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
 
-%description -n patterns-sailfish-device-configuration-jflte
-Pattern with packages for jflte configurations
+%description -n patterns-sailfish-device-configuration-jfltexx
+Pattern with packages for jfltexx configurations
 
-%files -n patterns-sailfish-device-configuration-jflte
+%files -n patterns-sailfish-device-configuration-jfltexx
