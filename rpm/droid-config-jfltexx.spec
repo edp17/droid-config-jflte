@@ -26,6 +26,8 @@
 # For building 17.1
 %define android_version_major 10
 
+Provides: ofono-configs
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-jfltexx.inc
 %include patterns/patterns-sailfish-device-configuration-jfltexx.inc
