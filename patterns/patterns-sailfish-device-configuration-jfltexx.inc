@@ -12,6 +12,9 @@ Requires: patterns-sailfish-cellular-apps
 # Early stages of porting benefit from these:
 Requires: patterns-sailfish-device-tools
 
+Requires: gnu-bash
+Requires: psmisc-tools
+
 Requires: sailfish-content-graphics-z%{icon_res}
 
 # For multi-SIM devices
@@ -36,6 +39,14 @@ Requires: geoclue-provider-mlsdb
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
+
+# install flashlight
+Requires: jolla-settings-system-flashlight
+
+# install some packages
+Requires: mce-tools
+Requires: connman-tools
+Requires: yamuisplash
 
 %description -n patterns-sailfish-device-configuration-jfltexx
 Pattern with packages for jfltexx configurations
