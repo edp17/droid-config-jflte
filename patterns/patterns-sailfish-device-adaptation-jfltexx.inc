@@ -67,6 +67,10 @@ Requires: jolla-devicelock-daemon-encsfa
 # For GPS
 Requires: geoclue-provider-hybris
 
+# For Bluetooth
+Requires: bluetooth-rfkill-event-hciattach
+Requires: broadcom-bluetooth-bluez5
+
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
 #Requires: jolla-mediaplayer-radio
