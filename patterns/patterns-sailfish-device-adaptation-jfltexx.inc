@@ -72,7 +72,7 @@ Requires: bluetooth-rfkill-event-hciattach
 Requires: broadcom-bluetooth-bluez5
 
 # Telephony (RIL sockets)
-Requires: ofono-ril-plugin
+Requires: ofono-ril-binder-plugin
 
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
