@@ -1,0 +1,11 @@
+[Unit]
+Description=Restart mce service
+After=lipstick.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/droid/restart-mce.sh
+Restart=on-error
+
+[Install]
+WantedBy=multi-user.target
