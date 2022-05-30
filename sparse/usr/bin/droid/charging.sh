@@ -13,4 +13,12 @@
 #  GNU General Public License for more details.
 #
 
-/usr/bin/systemctl restart mce.service
+
+  CONFLOCATION="/charging.status"
+  . $CONFLOCATION
+
+if [ $DISCHARGING = "1" ]
+then
+    echo 'DISCHARGING="0"' > /charging.status
+    /usr/bin/systemctl restart usb-moded
+fi

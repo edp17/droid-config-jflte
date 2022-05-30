@@ -13,4 +13,4 @@
 #  GNU General Public License for more details.
 #
 
-/usr/bin/systemctl restart mce.service
+echo 'DISCHARGING="1"' > /charging.status
