@@ -73,6 +73,7 @@ Requires: broadcom-bluetooth-bluez5
 
 # Telephony (RIL sockets)
 Requires: ofono-ril-binder-plugin
+Requires: ofono-ril-plugin
 
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
