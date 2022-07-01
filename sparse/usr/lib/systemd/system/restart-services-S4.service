@@ -1,5 +1,5 @@
 [Unit]
-Description=Restart mce, ofono and ngfd services
+Description=Restart ofono and ngfd services
 After=connman.service
 Before=network.target
 

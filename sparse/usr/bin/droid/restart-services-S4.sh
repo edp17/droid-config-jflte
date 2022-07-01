@@ -13,7 +13,6 @@
 #  GNU General Public License for more details.
 #
 
-# Restart these servecies for correct working order
-/usr/bin/systemctl restart mce
+# Restart these services for correct working order
 /usr/bin/systemctl restart ofono
 /usr/bin/systemctl-user restart ngfd
