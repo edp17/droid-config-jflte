@@ -11,7 +11,7 @@ Requires: droid-config-jfltexx-pulseaudio-settings
 Requires: droid-config-jfltexx-policy-settings
 Requires: droid-config-jfltexx-preinit-plugin
 Requires: droid-config-jfltexx-flashing
-Requires: droid-config-jfltexx-bluez5
+Requires: droid-config-jfltexx-bluez4
 Requires: droid-hal-version-jfltexx
 
 # Hybris packages
@@ -31,6 +31,9 @@ Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-hidl
+
+#edp17- for bluez4
+Requires: pulseaudio-modules-bluez4
 
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
@@ -72,7 +75,6 @@ Requires: geoclue-provider-hybris
 
 # For Bluetooth
 Requires: bluetooth-rfkill-event-hciattach
-Requires: broadcom-bluetooth-bluez5
 
 # Telephony (RIL sockets)
 Requires: ofono-ril-binder-plugin
