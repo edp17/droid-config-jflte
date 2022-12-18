@@ -74,7 +74,7 @@ Requires: jolla-devicelock-daemon-encsfa
 Requires: geoclue-provider-hybris
 
 # For Bluetooth
-Requires: bluetooth-rfkill-event-hciattach
+Requires: bluetooth-rfkill-event
 
 # Telephony (RIL sockets)
 Requires: ofono-ril-binder-plugin
